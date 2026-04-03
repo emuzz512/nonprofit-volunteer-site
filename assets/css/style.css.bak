@@ -122,7 +122,6 @@ body {
 
 .title-line.accent {
     color: var(--color-accent);
-    font-size: 0.7em;
 }
 
 .hero-subtitle {
