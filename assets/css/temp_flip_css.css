@@ -1,0 +1,149 @@
+
+/* ===================================
+   Flip Card Styles
+   =================================== */
+.flip-card {
+    perspective: 1000px;
+    cursor: pointer;
+    height: 100%;
+    min-height: 500px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner,
+.flip-card.flipped .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.flip-card-front {
+    background: transparent;
+}
+
+.flip-card-back {
+    background: var(--color-white);
+    padding: var(--spacing-lg);
+    transform: rotateY(180deg);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+    overflow-y: auto;
+}
+
+.flip-prompt {
+    text-align: center;
+    padding: var(--spacing-md);
+    background: var(--color-white);
+    border-radius: var(--border-radius);
+    color: var(--color-gray);
+    font-size: 0.875rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-xs);
+    transition: var(--transition);
+}
+
+.flip-card:hover .flip-prompt {
+    background: var(--color-accent);
+    color: var(--color-white);
+    transform: scale(1.05);
+}
+
+.flip-icon {
+    font-size: 1.5rem;
+    display: inline-block;
+    transition: var(--transition);
+}
+
+.flip-card:hover .flip-icon {
+    transform: rotate(180deg);
+}
+
+.flip-card-back h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: var(--spacing-md);
+    color: var(--color-text);
+}
+
+.experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+}
+
+.experience-item {
+    padding-bottom: var(--spacing-md);
+    border-bottom: 1px solid var(--color-gray-light);
+}
+
+.experience-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.experience-item strong {
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 0.25rem;
+}
+
+.experience-item span {
+    display: block;
+    font-size: 0.875rem;
+    color: var(--color-accent);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.experience-item p {
+    font-size: 0.875rem;
+    color: var(--color-gray);
+    line-height: 1.5;
+    margin: 0;
+}
+
+.credentials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-md);
+    padding-top: var(--spacing-md);
+    border-top: 1px solid var(--color-gray-light);
+}
+
+.credential {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: var(--color-bg);
+    border-radius: 50px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-text);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+

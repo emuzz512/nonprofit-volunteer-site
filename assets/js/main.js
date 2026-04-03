@@ -87,3 +87,15 @@ document.querySelectorAll('.service-card, .stat-card').forEach(card => {
         card.style.transform = '';
     });
 });
+
+// Flip Card Interaction
+document.addEventListener('DOMContentLoaded', () => {
+    const flipCard = document.querySelector('.flip-card');
+    
+    if (flipCard) {
+        // Toggle flip on click (especially for mobile)
+        flipCard.addEventListener('click', function() {
+            this.classList.toggle('flipped');
+        });
+    }
+});
