@@ -19,7 +19,8 @@
                 <h1 class="hero-title">
                     <span class="title-line">Systems Design</span>
                     <span class="title-line">for Nonprofits</span>
-                    <span class="title-line accent">Leverage Resources to Maximize Impact</span>
+                    <span class="title-line accent">Leveraging Resources</span>
+                    <span class="title-line accent">to Maximize Impact</span>
                 </h1>
                 <p class="hero-subtitle">Process improvement and strategic support for organizations serving their communities</p>
                 <a href="#contact" class="cta-button">Let's Connect</a>
@@ -48,11 +49,11 @@
                             <!-- Front of card -->
                             <div class="flip-card-front">
                                 <div class="stat-card accent">
-                                    <div class="stat-number">10+</div>
-                                    <div class="stat-label">Years Experience</div>
+                                    <div class="stat-number">10+ Years</div>
+                                    <div class="stat-label">Experience</div>
                                 </div>
                                 <div class="stat-card">
-                                    <div class="stat-number">$11M+</div>
+                                    <div class="stat-number">100%</div>
                                     <div class="stat-label">Cost Savings Delivered</div>
                                 </div>
                                 <div class="flip-prompt">
