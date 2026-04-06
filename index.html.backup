@@ -19,7 +19,8 @@
                 <h1 class="hero-title">
                     <span class="title-line">Systems Design</span>
                     <span class="title-line">for Nonprofits</span>
-                    <span class="title-line accent">Doing More</span>
+                    <span class="title-line accent">Leveraging Resources</span>
+                    <span class="title-line accent">to Maximize Impact</span>
                 </h1>
                 <p class="hero-subtitle">Process improvement and strategic support for organizations serving their communities</p>
                 <a href="#contact" class="cta-button">Let's Connect</a>
@@ -43,11 +44,58 @@
                     </div>
                 </div>
                 <div class="context-visual">
-                    <div class="stat-card">
-                        <div class="stat-number">10+</div>
-                        <div class="stat-label">Years in Systems Design</div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <!-- Front of card -->
+                            <div class="flip-card-front">
+                                <div class="stat-card accent">
+                                    <div class="stat-number">10+ Years</div>
+                                    <div class="stat-label">Experience</div>
+                                </div>
+                                <div class="stat-card">
+                                    <div class="stat-number">100%</div>
+                                    <div class="stat-label">Volunteer Basis</div>
+                                </div>
+                                <div class="flip-prompt">
+                                    <span class="flip-icon">↻</span>
+                                    <span>Click to see my background</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Back of card -->
+                            <div class="flip-card-back">
+                                <h3>My Background</h3>
+                                <div class="experience-list">
+                                    <div class="experience-item">
+                                        <strong>Principal Process Architect</strong>
+                                        <span>Block (Cash App) • 2025–Present</span>
+                                        <p>Leading large-scale process redesign across Block. Using AI to prototype solutions and accelerate from strategy to working systems.</p>
+                                    </div>
+                                    <div class="experience-item">
+                                        <strong>Process Consultant</strong>
+                                        <span>Block (Cash App) • 2022–2025</span>
+                                        <p>$5M+ cost reduction, $6M+ hiring savings. Built compliance controls from scratch for high-stakes regulatory work.</p>
+                                    </div>
+                                    <div class="experience-item">
+                                        <strong>Director, Research & Evaluation</strong>
+                                        <span>United Way of Greater St. Louis • 2016–2020</span>
+                                        <p>Evaluated $45M annual investment across 150+ nonprofit grantees. Trained nonprofits in evaluation, KPI design, and continuous improvement.</p>
+                                    </div>
+                                    <div class="experience-item">
+                                        <strong>Pro Bono Process Consultant</strong>
+                                        <span>Cornerstone Early Childhood • 2025–2026</span>
+                                        <p>Full system redesign for therapy services: SOPs, RACI, implementation roadmap, compliance monitoring.</p>
+                                    </div>
+                                </div>
+                                <div class="credentials">
+                                    <span class="credential">MSW, Washington University</span>
+                                    <span class="credential">Six Sigma Black Belt</span>
+                                    <span class="credential">10+ Years Experience</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="stat-card accent">
+                </div>
                         <div class="stat-number">100%</div>
                         <div class="stat-label">Volunteer Basis</div>
                     </div>
@@ -78,7 +126,7 @@
                 <div class="service-card">
                     <div class="service-icon">🗺️</div>
                     <h3>Problem Translation</h3>
-                    <p>Breaking down big, unclear problems into clear, actionable step-by-step plans</p>
+                    <p>Root cause analysis and breaking down big, unclear problems into clear, actionable step-by-step plans</p>
                 </div>
 
                 <div class="service-card">
@@ -111,6 +159,12 @@
                     <p>Acting as a thought partner through policy changes, funding shifts, or sudden growth</p>
                 </div>
             </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🤖</div>
+                    <h3>AI & Automation</h3>
+                    <p>Leveraging agentic and generative AI to prototype solutions, automate workflows, and accelerate process design</p>
+                </div>
         </div>
     </section>
 
@@ -120,10 +174,9 @@
             <div class="audience-content">
                 <h2 class="section-title">Is This For You?</h2>
                 <div class="audience-text">
-                    <p>This might be a good fit if you're part of a:</p>
+                    <p>This might be a good fit if you're looking for strategic, longer-term support (not urgent fixes) and you're part of a:</p>
                     <ul class="audience-list">
                         <li>Nonprofit organization facing increased demand</li>
-                        <li>Service organization with limited resources</li>
                         <li>Service organization with limited resources</li>
                         <li>Community program experiencing rapid growth</li>
                         <li>Team feeling overwhelmed by operational complexity</li>
