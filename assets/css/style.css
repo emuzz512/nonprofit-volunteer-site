@@ -485,12 +485,14 @@ body {
     cursor: pointer;
     width: 100%;
     min-height: 500px;
+    max-height: 600px;
 }
 
 .flip-card-inner {
     position: relative;
     width: 100%;
     min-height: 500px;
+    max-height: 600px;
     text-align: left;
     transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
     transform-style: preserve-3d;
@@ -506,6 +508,7 @@ body {
     position: absolute;
     width: 100%;
     min-height: 500px;
+    max-height: 600px;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     border-radius: var(--border-radius);
