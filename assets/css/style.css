@@ -576,7 +576,8 @@ body {
 }
 
 .experience-item {
-    padding-bottom: var(--spacing-md);
+    padding-top: var(--spacing-sm);
+    padding-bottom: var(--spacing-sm);
     border-bottom: 1px solid var(--color-gray-light);
 }
 
@@ -598,7 +599,7 @@ body {
     font-size: 0.875rem;
     color: var(--color-accent);
     font-weight: 600;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
 }
 
 .experience-item p {
